@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.vaqt {
+  margin-top: 150px;
+  margin-left: 600px;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.soat {
+  border: 3px solid transparent;
+  border-top: 3px solid blue;
+  border-right: 3px solid blue;
+  border-bottom: 3px solid blue;
+  border-left: none;
+  border-radius: 50%;
+
+  animation:aylanish 1.5s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  font-size: 50px;
+  border-radius: 50%;
+}
+
+@keyframes aylanish {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
